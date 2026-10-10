@@ -26,4 +26,4 @@ SWAAS is not just an AQI dashboard; it is a **complete ecosystem** that Tracks, 
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/akshatjain129/SWAAS-air-os.git](https://github.com/akshatjain129/SWAAS-air-os.git)
+   git clone [https://github.com/AkshatJain0318/SWAAS-air-os.git](https://github.com/AkshatJain0318/SWAAS-air-os.git)
