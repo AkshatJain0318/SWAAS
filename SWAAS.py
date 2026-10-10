@@ -4,7 +4,7 @@ import numpy as np
 import time
 
 # Page configuration
-st.set_page_config(page_title="PRANA - Malwa Air Intelligence", page_icon="🌬️", layout="wide")
+st.set_page_config(page_title="SWAAS - Malwa Air Intelligence", page_icon="🌬️", layout="wide")
 
 # Custom UI Styling
 st.markdown("""
@@ -16,7 +16,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Header
-st.title("🌬️ PRANA: Enterprise Air Intelligence (Malwa Region)")
+st.title("🌬️ SWAAS: Enterprise Air Intelligence (Malwa Region)")
 st.markdown("**Unified Ecosystem for Tracking, School Automation, Public Health & Farmer Incentives**")
 st.divider()
 
@@ -135,7 +135,7 @@ with tab3:
 
 with tab4:
     st.subheader("🌾 Farmer Carbon Wallet (Stubble-to-Wealth)")
-    st.markdown("Instead of fining farmers, PRANA calculates their potential earnings if they sell stubble to Bio-Gas/Cardboard plants instead of burning it.")
+    st.markdown("Instead of fining farmers, SWAAS calculates their potential earnings if they sell stubble to Bio-Gas/Cardboard plants instead of burning it.")
     
     farm_acres = st.number_input("Enter Farm Size (Acres)", min_value=1, value=10)
     stubble_tons = farm_acres * 2.5 # Approx 2.5 tons per acre
